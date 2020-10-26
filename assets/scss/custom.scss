@@ -1,0 +1,14 @@
+// custom.scss
+
+// All of your custom SCSS variables go first
+$primary: #254d98;
+$info: #e6c600;
+$secondary: #00A9C3;
+$light: #f4f4f4;
+$dark: #222222;
+//then bootstrap & bootstrap-vue should be added after
+//so that they inherit the custom SCSS variables
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+//all other custom scss files or css should be added here
